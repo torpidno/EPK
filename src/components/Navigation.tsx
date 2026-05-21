@@ -121,17 +121,7 @@ export const SideNavBar: React.FC = () => {
           photo_camera
         </span>
       </a>
-      <a
-        aria-label="X"
-        className="p-3 text-on-surface-variant hover:scale-125 hover:text-primary transition-all duration-300"
-        href="https://x.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 0" }}>
-          close
-        </span>
-      </a>
+
     </aside>
   );
 };

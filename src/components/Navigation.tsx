@@ -113,7 +113,7 @@ export const SideNavBar: React.FC = () => {
       <a
         aria-label="INSTAGRAM"
         className="p-3 text-on-surface-variant hover:scale-125 hover:text-primary transition-all duration-300"
-        href="https://instagram.com"
+        href="https://www.instagram.com/theemptyyards/"
         target="_blank"
         rel="noopener noreferrer"
       >

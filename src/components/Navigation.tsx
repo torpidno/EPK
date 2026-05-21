@@ -96,8 +96,9 @@ export const TopNavBar: React.FC = () => {
 };
 
 export const SideNavBar: React.FC = () => {
+  // Cache buster: v1.0.1
   return (
-    <aside className="fixed left-0 top-1/2 -translate-y-1/2 w-16 hidden lg:flex flex-col bg-surface-container-lowest border-r border-primary/10 shadow-[4px_0_0_0_#00f2ff] py-gutter gap-unit items-center z-40">
+    <aside data-version="1.0.1" className="fixed left-0 top-1/2 -translate-y-1/2 w-16 hidden lg:flex flex-col bg-surface-container-lowest border-r border-primary/10 shadow-[4px_0_0_0_#00f2ff] py-gutter gap-unit items-center z-40">
       <a
         aria-label="SPOTIFY"
         className="p-3 text-on-surface-variant hover:scale-125 hover:text-primary transition-all duration-300"

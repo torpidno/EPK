@@ -1,0 +1,9 @@
+services:
+  epk-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: empty-yards-epk
+    restart: unless-stopped
+    ports:
+      - "8080:80"

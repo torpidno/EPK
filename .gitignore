@@ -1,0 +1,36 @@
+# Node modules
+node_modules/
+
+# Production build
+dist/
+dist-ssr/
+*.local
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System/Agent files
+.antigravitycli/
+.agents/
+.system_generated/
+.gemini/
+brain/
+
+# OS files
+Thumbs.db
+Ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
